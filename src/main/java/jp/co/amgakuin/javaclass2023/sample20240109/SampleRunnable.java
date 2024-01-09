@@ -2,8 +2,13 @@ package jp.co.amgakuin.javaclass2023.sample20240109;
 
 public class SampleRunnable implements Runnable {
 
-	public void main(String argv[]) {
+	public static void main(String argv[]) {
 		new Thread(new SampleRunnable()).start();
+		
+		for(int i=0; i<100; i++) {
+			System.out.println("main="+i);
+		}
+
 	}
 	
 	@Override
