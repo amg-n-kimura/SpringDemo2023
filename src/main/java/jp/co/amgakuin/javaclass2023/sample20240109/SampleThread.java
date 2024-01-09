@@ -4,6 +4,10 @@ public class SampleThread extends Thread {
 
 	public void main(String argv[]) {
 		new Thread(new SampleThread()).start();
+		
+		for(int i=0; i<10000; i++) {
+			System.out.println("main="+i);
+		}
 	}
 	
 	@Override
