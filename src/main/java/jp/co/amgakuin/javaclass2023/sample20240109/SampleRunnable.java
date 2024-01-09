@@ -9,7 +9,7 @@ public class SampleRunnable implements Runnable {
 	@Override
 	public void run() {
 		// TODO 自動生成されたメソッド・スタブ
-		for(int i=0; i<100; i++) {
+		for(int i=0; i<10000; i++) {
 			System.out.println("i="+i);
 		}
 	}

@@ -17,5 +17,6 @@ public class SampleMainClass {
 		
 		SampleChildClass scc2;
 		//scc2 = spc;
+		
 	}
 }
